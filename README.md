@@ -1,0 +1,4 @@
+Blueprint
+=========
+
+Blueprint theme boilerplate
