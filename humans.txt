@@ -1,0 +1,18 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Developer: Ryan Thompson
+  Company: AI Web Systems, Inc.
+  Site: http://www.aiwebsystems.com/
+  Twitter: http://twitter.com/aiwebsystems
+  Location: Illinois, USA
+
+/* THANKS */
+  Names (& URL):
+
+/* SITE */
+  Standards: 	HTML5, CSS3
+  Components: 	Modernizr, jQuery, LESS
+  Software: 	PyroCMS
