@@ -18,15 +18,19 @@
         {{ theme:partial name="header" }}
 
         <section id="main">
+
             <section class="container">
+                {{ session:messages
+                    success="alert alert-block alert-success"
+                    notice="alert alert-block alert-info"
+                    error="alert alert-block alert-error"
+                }}
+            </section>
 
-                {{ session:messages success="alert alert-block alert-success" notice="alert alert-block alert-info" error="alert alert-block alert-error" }}
+            {{ template:body }}
 
-                {{ template:body }}
+            {{ theme:partial name="footer" }}
 
-                {{ theme:partial name="footer" }}
-
-            </section><!-- /.container -->
         </section><!-- #main -->
 
         {{ theme:partial name="js" }}
